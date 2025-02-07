@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Calculator";
+
+}
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <label for="hours">Hours Needed:</label>
+    <input type="number" id="hours" min="0" required>
+</div>
+
+<div>
+    <label for="rate">Rate per Hour:</label>
+    <input type="text" id="rate" value="25" readonly> <!-- Change the rate as needed -->
+</div>
+
+<div>
+    <button id="calculate">Calculate Total</button>
+</div>
+
+<div>
+    <label for="total">Total Cost:</label>
+    <input type="text" id="total" readonly>
+</div>

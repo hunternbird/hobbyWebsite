@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "hobbyWebsite/1.0.0": {
+        "runtime": {
+          "hobbyWebsite.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "hobbyWebsite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
